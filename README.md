@@ -3,7 +3,9 @@
 **********************************************GKE cluster creation pre-requisites ***************************
 
 Step1: Create a free GCP account
+
 Step2: Google Cloud project--> Created project=eclipx-demo-project
+
 Step3: Install Google Cloud SDK CLI
 		
 	a) Python version:
