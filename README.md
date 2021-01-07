@@ -1,6 +1,7 @@
 # gke_hello_world project
 
 **********************************************GKE cluster creation pre-requisites ***************************
+
 Step1: Create a free GCP account
 Step2: Google Cloud project--> Created project=eclipx-demo-project
 Step3: Install Google Cloud SDK CLI
@@ -64,11 +65,11 @@ Step1: Traverse to the folder of terraform code
 Note: Attached is the console-  eclipx-dev cluster is created under project 'eclipx-demo-project'
 
 3 nodes have been created
-Verify the cluster resource manually using below commands
 
-kubectl get nodes
-kubectl get deployments
-kubectl get svc
+Verify the cluster resource manually using below commands:
+
+	kubectl get nodes
+
 
 ***********************************************END************************************************************
 
@@ -107,6 +108,7 @@ Step 4:	curl localhost:8080
 ********************************************** END **********************************************************
 
 **********************************************Docker push steps**********************************************
+
 Step1 : Docker login with the credentials
 
 		docker login
@@ -129,6 +131,11 @@ Output:
 gke_cluster = eclipx-dev
 endpoint = *****
 
+Verify the cluster resource manually using below commands:
+
+kubectl get deployments
+kubectl get svc
+kubectl get endpoints
 ***********************************************END************************************************************
 
 
